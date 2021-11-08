@@ -1,0 +1,60 @@
+/* 初期設定 */
+/* 文字サイズの基準を設定 */
+html {
+    font-size: 16px;
+}
+/* 全タグmargin/paddingの初期化 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* ストップウォッチ内容 */
+.container {
+    width:600px;
+    height:500px;
+    margin: 20px auto;
+    border: 5px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 見出しのレイアウト */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* タイマー表示部のレイアウト */
+.disp-time {
+    font-size: 3rem;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    border:2px solid #DDDDDD;
+}
+
+
+/* ボタン部分 */
+.sw-btn {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+/* 各ボタンレイアウト */
+.btn {
+    font-size: 1rem;
+    width: 30%;
+    padding: 15px 0;
+    margin: 0 10px;
+    border: 2px solid #666666;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+}

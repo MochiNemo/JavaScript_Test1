@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ストップウォッチ</title>
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- 見出し -->
+            <h1>ストップウォッチ</h1>
+
+            <!-- タイマー表示部 -->
+            <div class="disp-time">
+                <span class="hour">00</span> : 
+                <span class="minute">00</span> :
+                <span class="second">00</span> :
+                <span class="msecond">00</span> 
+            </div>
+
+            <!-- ストップウォッチの各ボタン -->
+            <div class="sw-btn">
+                <button class="btn start">スタート</button>
+                <button class="btn stop" disabled="disabled">ストップ</button>
+                <button class="btn reset" disabled="disabled">リセット</button>
+            </div>
+        </div>
+        
+        <!-- JavaScript読み込み -->
+        <script type="text/javascript" src = "js/main.js"></script>
+    </body>
+</html>
